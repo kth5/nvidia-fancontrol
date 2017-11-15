@@ -39,6 +39,7 @@ Check /var/log/nvidia-fancontrol.log for how the script does.
 
 # Donations:
 
+```
 BTC: 34qmK6ZKX5WeT7winCayv2HVVxZnnwnsot
-
 XMR: 4361xpTjBvBCArk43wKiSFiR4vu2aTXu3EgKF7iATHZfYZatDyhoQ6h3JMV4WZkxusL22Ri3ZXY8MWdN48T4z8prFnWt7PF
+```

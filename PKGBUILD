@@ -5,7 +5,7 @@ pkgrel=1
 pkgdesc="Simple Nvidia Fan control script"
 arch=(x86_64)
 url="https://github.com/kth5/hackinez.git"
-license=('GPL')
+license=('GPL3')
 depends=('xorg-server' 'xorg-xinit' 'nvidia-settings' 'nvidia-dkms')
 source=('nvidia-fancontrol'
         'nvidia-fancontrol-x'

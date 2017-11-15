@@ -11,11 +11,12 @@ temperature defined in defaults.
 
 # Installation
 
-> install -D -m755 nvidia-fancontrol /opt/nvidia-fancontrol/nvidia-fancontrol
-> install -D -m755 nvidia-fancontrol-x /opt/nvidia-fancontrol/nvidia-fancontrol-x
-> install -D -m644 nvidia-fancontrol.default /etc/default/nvidia-fancontrol
-> install -m644 dfp-edid.bin /opt/nvidia-fancontrol/dfp-edid.bin
-> install -m644 xorg.conf /opt/nvidia-fancontrol/xorg.conf
+```install -D -m755 nvidia-fancontrol /opt/nvidia-fancontrol/nvidia-fancontrol
+install -D -m755 nvidia-fancontrol-x /opt/nvidia-fancontrol/nvidia-fancontrol-x
+install -D -m644 nvidia-fancontrol.default /etc/default/nvidia-fancontrol
+install -m644 dfp-edid.bin /opt/nvidia-fancontrol/dfp-edid.bin
+install -m644 xorg.conf /opt/nvidia-fancontrol/xorg.conf
+```
 
 Edit /etc/default/nvidia-fancontrol to your liking.
 

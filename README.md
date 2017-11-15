@@ -24,7 +24,8 @@ Edit /etc/default/nvidia-fancontrol to your liking.
 
 Simply run the following as a user privileged enough to run an X server:
 
-> /opt/nvidia-fancontrol/nvidia-fancontrol
+```/opt/nvidia-fancontrol/nvidia-fancontrol
+```
 
 Check /var/log/nvidia-fancontrol.log for how the script does.
 

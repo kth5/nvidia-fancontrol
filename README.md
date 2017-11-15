@@ -1,4 +1,5 @@
 # nvidia-fancontrol
+
 Basic script that automatically controls NVIDIA GPU fans on a headless system for GNU/Linux.
 
 # How does this work?
@@ -35,3 +36,8 @@ Check /var/log/nvidia-fancontrol.log for how the script does.
 
 * service via systemd (start/stop etc)
 * log levels
+
+# Donations:
+
+BTC: 34qmK6ZKX5WeT7winCayv2HVVxZnnwnsot
+XMR: 4361xpTjBvBCArk43wKiSFiR4vu2aTXu3EgKF7iATHZfYZatDyhoQ6h3JMV4WZkxusL22Ri3ZXY8MWdN48T4z8prFnWt7PF

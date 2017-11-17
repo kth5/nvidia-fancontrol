@@ -5,15 +5,16 @@ source /etc/default/nvidia-fancontrol
 while [ 1 = 1 ]; do
 	curspd=$(nvidia-smi -q | grep GPU.*${PCIID/0:/00.} -A 48 | tail -n1 | awk '{print $4}')
 	curtmp=$(nvidia-smi -q -d temperature | grep -A2 GPU.*${PCIID/0:/00.} | tail -n1 | awk '{print $5}')
+	warning=''
 	if [ $curtmp -gt ${TEMP_TARGET} ]; then
 		if [ ${curspd} -lt 100 ]; then
 			let newspd="${curspd} + ${FAN_STEP}"
 			if [ ${newspd} -gt 100 ]; then
-				warning="Maximum fan speed reached!"
+				warning='Maximum fan speed reached!'
 			fi
 		else
 			newspd=${curspd}
-			warning="Consider checking airflow!"
+			warning='Consider checking airflow!'
 		fi
 	else
 		if [ ${curspd} -gt 0 ]; then

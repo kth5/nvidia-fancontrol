@@ -1,6 +1,6 @@
 # Maintainer: Alexander Baldeck <alex.bldck@gmail.com> 
 pkgname=nvidia-fancontrol
-pkgver=0.5
+pkgver=0.5.1
 pkgrel=1
 pkgdesc="Simple Nvidia Fan control script"
 arch=(x86_64)
@@ -12,9 +12,10 @@ source=('nvidia-fancontrol'
         'nvidia-fancontrol.default'
         'dfp-edid.bin'
         'xorg.conf')
-md5sums=('99a2d078145a59e69a34937a7647d047'
-         '97582cf6a7789bd53587b1dd23a757d7'
-         '0367aea08017d96ac1a30721ac7c3bdf'
+backup=('etc/default/nvidia-fancontrol')
+md5sums=('2884a4b11b0ec65b1a018772ccfed9f9'
+         '035f47fb5639bb254dd570e9533653f1'
+         'd6498a0369c36d80689aa0e2f9547b58'
          '737a37ad8382bbfde91b5e9e81089a7d'
          'f51916f26f7d50dd4f84b57f0b83e176')
 
